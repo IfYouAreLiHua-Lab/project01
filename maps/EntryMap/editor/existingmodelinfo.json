@@ -6,5 +6,53 @@
    "\u521d\u59cb\u955c\u5934", 
    32768
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10003, 
+   "\u7ea2\u65b9\u8fdb\u653b\u70b9", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10004, 
+   "\u84dd\u65b9\u8fdb\u653b\u70b9", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10005, 
+   "\u84dd\u65b9\u519b\u961f\u524d\u6392\u51fa\u751f\u533a\u57df", 
+   4194304
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10006, 
+   "\u84dd\u65b9\u519b\u961f\u540e\u6392\u51fa\u751f\u533a\u57df", 
+   4194304
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10007, 
+   "\u7ea2\u65b9\u519b\u961f\u524d\u6392\u51fa\u751f\u533a\u57df", 
+   4194304
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10008, 
+   "\u7ea2\u65b9\u519b\u961f\u540e\u6392\u51fa\u751f\u533a\u57df", 
+   4194304
+  ]
  }
 ]
