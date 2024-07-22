@@ -1,0 +1,198 @@
+{
+    "local_variable": {
+        "2049470465": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
+    "trigger_dict": {
+        "2049470465": {
+            "action": [
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "DAMAGE_TARGET_UNIT"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u5355\u4f4d\u7c7b\u578b"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_STRING_KV"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "\u751f\u7269"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "STRING_COMPARE", 
+                                    "element_id": 2049470465000038, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_CUR_DAMAGE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [], 
+                                                    "sub_type": "HURT_DAMAGE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100017, 
+                                                    "args_list": [
+                                                        "*"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        2.5
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "ARITHMETIC_OPERATION"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 2049470465000026, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2049470465000029, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 2049470465000024, 
+                    "enable": true, 
+                    "event_type": "UNIT_HURT_OTHER_BEFORE_APPLY"
+                }
+            ], 
+            "group_id": 134261356, 
+            "p_trigger_id": null, 
+            "trigger_id": 2049470465, 
+            "trigger_name": "\u8fdb\u5316\u6548\u679c", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        2049470465, 
+                        "\u8fdb\u5316\u6548\u679c"
+                    ]
+                }
+            ], 
+            "key": 134261356, 
+            "name": "134261356"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "DYNAMIC_TRIGGER_INSTANCE": {
+            "\u8bbe\u7f6e\u653b\u51fb\u529b": 0, 
+            "\u8bbe\u7f6e\u751f\u547d": 0
+        }, 
+        "FLOAT": {
+            "\u653b\u51fb\u529b": 0.0, 
+            "\u751f\u547d\u503c": 0.0
+        }
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u8bbe\u7f6e\u653b\u51fb\u529b", 
+                "\u8bbe\u7f6e\u653b\u51fb\u529b"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u653b\u51fb\u529b", 
+                "\u653b\u51fb\u529b"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u751f\u547d\u503c", 
+                "\u751f\u547d\u503c"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u8bbe\u7f6e\u751f\u547d", 
+                "\u8bbe\u7f6e\u751f\u547d"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "\u653b\u51fb\u529b": 0, 
+        "\u751f\u547d\u503c": 0, 
+        "\u8bbe\u7f6e\u653b\u51fb\u529b": 0, 
+        "\u8bbe\u7f6e\u751f\u547d": 0
+    }
+}

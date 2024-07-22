@@ -1,4 +1,5 @@
 {
     "New trigger.json": 0, 
-    "UI.folder": 1
+    "UI.folder": 1, 
+    "军队刷新进程.folder": 2
 }

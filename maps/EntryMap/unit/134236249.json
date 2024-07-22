@@ -1,5 +1,9 @@
 {
     "local_variable": {
+        "740941827": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
         "1428783106": {
             "variable_dict": {
                 "INTEGER": {
@@ -19,6 +23,10 @@
             "variable_length_dict": {
                 "\u8ba1\u6570\u5668": 0
             }
+        }, 
+        "2049470465": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
         }
     }, 
     "trigger_dict": {
@@ -263,7 +271,7 @@
                     "event_type": "GAME_ELAPSE_REPEAT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134236249, 
             "is_conf": true, 
             "p_trigger_id": 2049470465, 
             "sub_trigger_owner_set_var_action": {
@@ -335,7 +343,7 @@
                         {
                             "arg_type": 100042, 
                             "args_list": [
-                                "attack_phy"
+                                "hp_max"
                             ], 
                             "sub_type": 1
                         }, 
@@ -490,7 +498,7 @@
                     "event_type": "GAME_ELAPSE_REPEAT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134236249, 
             "is_conf": true, 
             "p_trigger_id": 2049470465, 
             "sub_trigger_owner_set_var_action": {

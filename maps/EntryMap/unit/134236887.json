@@ -1,0 +1,100 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {
+        "904880129": {
+            "action": [
+                {
+                    "action_type": "UNIT_RAISE_HEIGHT", 
+                    "args_list": [], 
+                    "bp": false, 
+                    "element_id": 904880129000010, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 904880129000014, 
+                    "enable": true, 
+                    "event_type": "UNIT_BORN"
+                }
+            ], 
+            "group_id": 134236887, 
+            "p_trigger_id": null, 
+            "trigger_id": 904880129, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": false, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        904880129, 
+                        "\u65b0\u5efa\u89e6\u53d1\u5668"
+                    ]
+                }
+            ], 
+            "key": 134236887, 
+            "name": "134236887"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "DYNAMIC_TRIGGER_INSTANCE": {
+            "\u8bbe\u7f6e\u653b\u51fb\u529b": 0, 
+            "\u8bbe\u7f6e\u751f\u547d": 0
+        }, 
+        "FLOAT": {
+            "\u653b\u51fb\u529b": 0.0, 
+            "\u751f\u547d\u503c": 0.0
+        }
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u8bbe\u7f6e\u653b\u51fb\u529b", 
+                "\u8bbe\u7f6e\u653b\u51fb\u529b"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u653b\u51fb\u529b", 
+                "\u653b\u51fb\u529b"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u751f\u547d\u503c", 
+                "\u751f\u547d\u503c"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u8bbe\u7f6e\u751f\u547d", 
+                "\u8bbe\u7f6e\u751f\u547d"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "\u653b\u51fb\u529b": 0, 
+        "\u751f\u547d\u503c": 0, 
+        "\u8bbe\u7f6e\u653b\u51fb\u529b": 0, 
+        "\u8bbe\u7f6e\u751f\u547d": 0
+    }
+}

@@ -7,6 +7,10 @@
             "UI_Manager": null
         }, 
         "UNIT_ENTITY": {}, 
+        "UNIT_GROUP": {
+            "\u7ea2\u65b9\u519b\u961f": [], 
+            "\u84dd\u65b9\u519b\u961f": []
+        }, 
         "UNIT_NAME": {}
     }, 
     "variable_group_info": [
@@ -23,10 +27,26 @@
                 "GLOBAL_BAG_MAX_NUM", 
                 "GLOBAL_BAG_MAX_NUM"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u84dd\u65b9\u519b\u961f", 
+                "\u84dd\u65b9\u519b\u961f"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u7ea2\u65b9\u519b\u961f", 
+                "\u7ea2\u65b9\u519b\u961f"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GLOBAL_BAG_MAX_NUM": 0, 
-        "UI_Manager": 0
+        "UI_Manager": 0, 
+        "\u7ea2\u65b9\u519b\u961f": 0, 
+        "\u84dd\u65b9\u519b\u961f": 0
     }
 }
