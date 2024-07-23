@@ -40,6 +40,19 @@
                 0.0, 
                 0.0
             ]
+        }, 
+        "default_1": {
+            "__tuple__": true, 
+            "items": [
+                "default_1", 
+                "biped-head", 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ]
         }
     }, 
     "source": "code_Source_Import", 

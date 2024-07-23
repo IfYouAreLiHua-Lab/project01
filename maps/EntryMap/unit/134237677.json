@@ -1,5 +1,14 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "1903697921": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1954193410": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "1903697921": {
             "action": [
@@ -85,26 +94,73 @@
         "1954193410": {
             "action": [
                 {
-                    "action_type": "REMOVE_BUFF_INS", 
+                    "action_type": "IF_THEN_ELSE", 
                     "args_list": [
                         {
-                            "arg_type": 100076, 
+                            "arg_type": 100021, 
                             "args_list": [
                                 {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "MODIFIER_ENTITY", 
-                                        "buff", 
-                                        "actor"
-                                    ]
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_UNIT"
+                                        }, 
+                                        {
+                                            "arg_type": 100046, 
+                                            "args_list": [
+                                                134279104
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "UNIT_HAS_MODIFIER", 
+                                    "element_id": 1954193410000020, 
+                                    "enable": true
                                 }
                             ], 
-                            "sub_type": 11
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "REMOVE_BUFF_INS", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100076, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "MODIFIER_ENTITY", 
+                                                        "buff", 
+                                                        "actor"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 11
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1954193410000008, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1954193410000008, 
-                    "enable": true
+                    "element_id": 1954193410000011, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
                 }
             ], 
             "call_enabled": true, 
