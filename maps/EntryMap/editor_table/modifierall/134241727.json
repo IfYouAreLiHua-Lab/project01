@@ -30,9 +30,9 @@
             {
                 "__tuple__": true, 
                 "items": [
+                    1.0, 
                     0.3, 
-                    0.3, 
-                    0.3
+                    1.0
                 ]
             }, 
             1.0, 
@@ -83,7 +83,7 @@
     "shield_change_of_cover": 2, 
     "shield_type": 1, 
     "shield_value": 0.0, 
-    "show_on_ui": true, 
+    "show_on_ui": false, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []

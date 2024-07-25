@@ -1,5 +1,14 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "887369729": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1793454082": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "887369729": {
             "action": [
@@ -125,7 +134,7 @@
                                 {
                                     "arg_type": 100000, 
                                     "args_list": [
-                                        0.03
+                                        0.1
                                     ], 
                                     "sub_type": 1
                                 }
@@ -207,7 +216,7 @@
                     "event_type": "SPECIAL_UNIT_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134248639, 
             "is_conf": true, 
             "p_trigger_id": 887369729, 
             "trigger_id": 1793454082, 

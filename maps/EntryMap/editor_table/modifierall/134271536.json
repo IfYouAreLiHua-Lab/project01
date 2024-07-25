@@ -12,7 +12,7 @@
                 "__tuple__": true, 
                 "items": [
                     0.0, 
-                    0.0, 
+                    0.5, 
                     0.0
                 ]
             }, 
@@ -27,9 +27,9 @@
             {
                 "__tuple__": true, 
                 "items": [
-                    20.0, 
-                    20.0, 
-                    20.0
+                    4.0, 
+                    4.0, 
+                    4.0
                 ]
             }, 
             1.0, 
@@ -84,7 +84,7 @@
         ]
     }, 
     "material_color_intensity": 0, 
-    "model": 206278, 
+    "model": 103655, 
     "modifier_cover_type": 3, 
     "modifier_effect": 2, 
     "modifier_icon": 100008, 

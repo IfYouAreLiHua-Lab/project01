@@ -1,5 +1,14 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "202350594": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1108291585": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "202350594": {
             "action": [
@@ -147,41 +156,6 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-                    "args_list": [
-                        {
-                            "arg_type": 100175, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100000, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "FLOAT", 
-                                                "\u751f\u547d\u503c\u5dee\u503c", 
-                                                "actor"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": 2
-                                }
-                            ], 
-                            "sub_type": "ANY_VAR_TO_STR"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1108291585000015, 
-                    "enable": true
-                }, 
-                {
                     "action_type": "SET_ATTR", 
                     "args_list": [
                         {
@@ -275,124 +249,6 @@
                     "bp": false, 
                     "element_id": 202350594000254, 
                     "enable": true
-                }, 
-                {
-                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-                    "args_list": [
-                        {
-                            "arg_type": 100175, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100000, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "MODIFIER_OWNER"
-                                        }, 
-                                        {
-                                            "arg_type": 100301, 
-                                            "args_list": [
-                                                "ATTR_BASE_RATIO"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100042, 
-                                            "args_list": [
-                                                "attack_phy"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_UNIT_ATTR"
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "op_arg": [
-                                null
-                            ], 
-                            "op_arg_enable": [
-                                false
-                            ], 
-                            "sub_type": "FLOAT_TO_STR_NEW"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 202350594000162, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-                    "args_list": [
-                        {
-                            "arg_type": 100175, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100000, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "MODIFIER_OWNER"
-                                        }, 
-                                        {
-                                            "arg_type": 100301, 
-                                            "args_list": [
-                                                "ATTR_RESULT"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100042, 
-                                            "args_list": [
-                                                "attack_phy"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_UNIT_ATTR"
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "op_arg": [
-                                null
-                            ], 
-                            "op_arg_enable": [
-                                false
-                            ], 
-                            "sub_type": "FLOAT_TO_STR_NEW"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 202350594000183, 
-                    "enable": true
                 }
             ], 
             "call_enabled": true, 
@@ -419,7 +275,7 @@
                     "event_type": "SPECIAL_UNIT_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134241727, 
             "is_conf": true, 
             "p_trigger_id": 1108291585, 
             "sub_trigger_owner_set_var_action": {

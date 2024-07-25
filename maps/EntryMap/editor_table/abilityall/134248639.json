@@ -41,7 +41,7 @@
             "get_owner_float_attr(\"hp_max\")*0.03"
         ]
     }, 
-    "ability_icon": 100508, 
+    "ability_icon": 131414, 
     "ability_max_level": 5, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -133,6 +133,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": 703054427, 
     "description": 703054427, 
     "end_sfx_list": {
         "__tuple__": true, 

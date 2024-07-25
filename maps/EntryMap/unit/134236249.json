@@ -1,5 +1,13 @@
 {
     "local_variable": {
+        "600969225": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "684855303": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
         "740941827": {
             "variable_dict": {}, 
             "variable_length_dict": {}
@@ -24,12 +32,200 @@
                 "\u8ba1\u6570\u5668": 0
             }
         }, 
+        "1641472008": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1959923720": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
         "2049470465": {
             "variable_dict": {}, 
             "variable_length_dict": {}
         }
     }, 
     "trigger_dict": {
+        "600969225": {
+            "action": [
+                {
+                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "CUR_UNIT"
+                        }, 
+                        {
+                            "arg_type": 100216, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "POINT", 
+                                                "\u8fdb\u653b\u70b9", 
+                                                "actor"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 19
+                                }
+                            ], 
+                            "op_arg": [
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false
+                            ], 
+                            "sub_type": "UNIT_COMMAND_ATTACK_MOVE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 600969225000003, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1306768868
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 600969225000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 684855303, 
+            "sub_trigger_owner_set_var_action": {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "DYNAMIC_TRIGGER_INSTANCE", 
+                                    "\u56de\u5230\u8fdb\u653b\u72b6\u6001", 
+                                    "actor"
+                                ]
+                            }
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            {
+                                "arg_type": 1000671, 
+                                "args_list": [
+                                    600969225
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "REG_UNIT_TRIGGER"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1990492161000014, 
+                "enable": true
+            }, 
+            "trigger_id": 600969225, 
+            "trigger_name": "\u5b50\u89e6\u53d1\u5668_5", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }, 
+        "684855303": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "\u6240\u5c5e\u73a9\u5bb6", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_UNIT"
+                                }
+                            ], 
+                            "sub_type": "OWNER_PLAYER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 684855303000002, 
+                    "enable": true
+                }, 
+                1959923720, 
+                600969225
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 684855303000001, 
+                    "enable": true, 
+                    "event_type": "UNIT_BORN"
+                }
+            ], 
+            "group_id": 134236249, 
+            "p_trigger_id": null, 
+            "trigger_id": 684855303, 
+            "trigger_name": "\u9ed8\u8ba4\u8fdb\u653b\u884c\u4e3a\u8bbe\u7f6e", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }, 
         "740941827": {
             "action": [
                 {
@@ -553,6 +749,256 @@
                 ]
             ]
         }, 
+        "1641472008": {
+            "action": [
+                {
+                    "action_type": "UNREG_TRIGGER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100178, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "DYNAMIC_TRIGGER_INSTANCE", 
+                                        "\u521d\u59cb\u5316\u6570\u636e", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1641472008000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "UNREG_TRIGGER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100178, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "DYNAMIC_TRIGGER_INSTANCE", 
+                                        "\u56de\u5230\u8fdb\u653b\u72b6\u6001", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1641472008000003, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1641472008000001, 
+                    "enable": true, 
+                    "event_type": "UNIT_DIE"
+                }
+            ], 
+            "group_id": 134236249, 
+            "p_trigger_id": null, 
+            "trigger_id": 1641472008, 
+            "trigger_name": "\u6b7b\u4ea1\u6ce8\u9500", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }, 
+        "1959923720": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER_GROUP", 
+                                        "\u6240\u5c5e\u9635\u8425", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100027, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "\u9635\u8425"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1959923720000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "\u8fdb\u653b\u70b9", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "\u70b9\u4f4d"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1959923720000004, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "\u6240\u5c5e\u73a9\u5bb6", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "\u73a9\u5bb6"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }
+                    ], 
+                    "condition_type": "PLAYER_COMPARE", 
+                    "element_id": 1959923720000002, 
+                    "enable": true
+                }
+            ], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1223921586
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1959923720000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 684855303, 
+            "sub_trigger_owner_set_var_action": {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "DYNAMIC_TRIGGER_INSTANCE", 
+                                    "\u521d\u59cb\u5316\u6570\u636e", 
+                                    "actor"
+                                ]
+                            }
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            {
+                                "arg_type": 1000671, 
+                                "args_list": [
+                                    1959923720
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "REG_UNIT_TRIGGER"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1990492161000009, 
+                "enable": true
+            }, 
+            "trigger_id": 1959923720, 
+            "trigger_name": "\u5b50\u89e6\u53d1\u5668_4", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }, 
         "2049470465": {
             "action": [
                 {
@@ -677,8 +1123,36 @@
     }, 
     "trigger_group_info": [
         {
+            "__tuple__": true, 
+            "items": [
+                600969225, 
+                "\u5b50\u89e6\u53d1\u5668_5"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1959923720, 
+                "\u5b50\u89e6\u53d1\u5668_4"
+            ]
+        }, 
+        {
             "_trigger_group_": true, 
             "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        684855303, 
+                        "\u9ed8\u8ba4\u8fdb\u653b\u884c\u4e3a\u8bbe\u7f6e"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1641472008, 
+                        "\u6b7b\u4ea1\u6ce8\u9500"
+                    ]
+                }, 
                 {
                     "__tuple__": true, 
                     "items": [
@@ -715,12 +1189,30 @@
     "trigger_version": "1.2", 
     "variable_dict": {
         "DYNAMIC_TRIGGER_INSTANCE": {
+            "\u521d\u59cb\u5316\u6570\u636e": 0, 
+            "\u56de\u5230\u8fdb\u653b\u72b6\u6001": 0, 
             "\u8bbe\u7f6e\u653b\u51fb\u529b": 0, 
             "\u8bbe\u7f6e\u751f\u547d": 0
         }, 
         "FLOAT": {
             "\u653b\u51fb\u529b": 0.0, 
             "\u751f\u547d\u503c": 0.0
+        }, 
+        "PLAYER": {
+            "\u6240\u5c5e\u73a9\u5bb6": 0
+        }, 
+        "PLAYER_GROUP": {
+            "\u6240\u5c5e\u9635\u8425": []
+        }, 
+        "POINT": {
+            "\u8fdb\u653b\u70b9": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }
         }
     }, 
     "variable_group_info": [
@@ -751,12 +1243,52 @@
                 "\u8bbe\u7f6e\u751f\u547d", 
                 "\u8bbe\u7f6e\u751f\u547d"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6240\u5c5e\u73a9\u5bb6", 
+                "\u6240\u5c5e\u73a9\u5bb6"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u8fdb\u653b\u70b9", 
+                "\u8fdb\u653b\u70b9"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u521d\u59cb\u5316\u6570\u636e", 
+                "\u521d\u59cb\u5316\u6570\u636e"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6240\u5c5e\u9635\u8425", 
+                "\u6240\u5c5e\u9635\u8425"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u56de\u5230\u8fdb\u653b\u72b6\u6001", 
+                "\u56de\u5230\u8fdb\u653b\u72b6\u6001"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "\u521d\u59cb\u5316\u6570\u636e": 0, 
+        "\u56de\u5230\u8fdb\u653b\u72b6\u6001": 0, 
+        "\u6240\u5c5e\u73a9\u5bb6": 0, 
+        "\u6240\u5c5e\u9635\u8425": 0, 
         "\u653b\u51fb\u529b": 0, 
         "\u751f\u547d\u503c": 0, 
         "\u8bbe\u7f6e\u653b\u51fb\u529b": 0, 
-        "\u8bbe\u7f6e\u751f\u547d": 0
+        "\u8bbe\u7f6e\u751f\u547d": 0, 
+        "\u8fdb\u653b\u70b9": 0
     }
 }

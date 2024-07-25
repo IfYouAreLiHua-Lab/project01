@@ -1,7 +1,19 @@
 {
     "variable_dict": {
+        "DYNAMIC_TRIGGER_INSTANCE": {
+            "\u7ea2\u65b9\u6cbb\u7597\u6548\u679c": 0, 
+            "\u84dd\u65b9\u6cbb\u7597\u6548\u679c": 0
+        }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0
+        }, 
+        "MODIFIER_ENTITY": {
+            "\u7ea2\u65b9\u6cc9\u6c34\u56de\u8840": 0, 
+            "\u84dd\u65b9\u6cc9\u6c34\u56de\u8840": 0
+        }, 
+        "PLAYER_GROUP": {
+            "\u7ea2\u65b9": [], 
+            "\u84dd\u65b9": []
         }, 
         "TABLE": {
             "UI_Manager": null
@@ -58,14 +70,62 @@
                 "\u84dd\u65b9\u9632\u5fa1\u5854", 
                 "\u84dd\u65b9\u9632\u5fa1\u5854"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u84dd\u65b9", 
+                "\u84dd\u65b9"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u7ea2\u65b9", 
+                "\u7ea2\u65b9"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u7ea2\u65b9\u6cbb\u7597\u6548\u679c", 
+                "\u7ea2\u65b9\u6cbb\u7597\u6548\u679c"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u84dd\u65b9\u6cbb\u7597\u6548\u679c", 
+                "\u84dd\u65b9\u6cbb\u7597\u6548\u679c"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u7ea2\u65b9\u6cc9\u6c34\u56de\u8840", 
+                "\u7ea2\u65b9\u6cc9\u6c34\u56de\u8840"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u84dd\u65b9\u6cc9\u6c34\u56de\u8840", 
+                "\u84dd\u65b9\u6cc9\u6c34\u56de\u8840"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GLOBAL_BAG_MAX_NUM": 0, 
         "UI_Manager": 0, 
+        "\u7ea2\u65b9": 0, 
         "\u7ea2\u65b9\u519b\u961f": 0, 
+        "\u7ea2\u65b9\u6cbb\u7597\u6548\u679c": 0, 
+        "\u7ea2\u65b9\u6cc9\u6c34\u56de\u8840": 0, 
         "\u7ea2\u65b9\u9632\u5fa1\u5854": 0, 
+        "\u84dd\u65b9": 0, 
         "\u84dd\u65b9\u519b\u961f": 0, 
+        "\u84dd\u65b9\u6cbb\u7597\u6548\u679c": 0, 
+        "\u84dd\u65b9\u6cc9\u6c34\u56de\u8840": 0, 
         "\u84dd\u65b9\u9632\u5fa1\u5854": 0
     }
 }

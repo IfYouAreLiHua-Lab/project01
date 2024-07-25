@@ -15,7 +15,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 80.0, 
+    "attack_phy": 40.0, 
     "attack_phy_grow": 5.0, 
     "attack_range": 1.2, 
     "attack_range_grow": 0, 
@@ -26,15 +26,12 @@
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
     "base_color_mod": 1, 
-    "base_tint_color": {
-        "__tuple__": true, 
-        "items": [
-            255, 
-            255, 
-            255, 
-            0.5
-        ]
-    }, 
+    "base_tint_color": [
+        217, 
+        4, 
+        22, 
+        1.0
+    ], 
     "billboard_height_offset": 0, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
@@ -70,10 +67,16 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_ability_list": [
+        [
+            134283175, 
+            1
+        ], 
+        [
+            134258657, 
+            1
+        ]
+    ], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -92,9 +95,9 @@
     "dead_exp": 100, 
     "dead_money": 300, 
     "default_behaviour_type": "caution", 
-    "defense_mag": 35.0, 
+    "defense_mag": 5.0, 
     "defense_mag_grow": 1.0, 
-    "defense_phy": 30.0, 
+    "defense_phy": 5.0, 
     "defense_phy_grow": 3.0, 
     "description": 556129222, 
     "destroy_after_die": true, 
@@ -137,15 +140,27 @@
     "height_offset": 0, 
     "hero_ability_list": [
         [
+            134246160, 
+            1
+        ], 
+        [
             134248639, 
             0
+        ], 
+        [
+            134274429, 
+            1
+        ], 
+        [
+            134267391, 
+            1
         ]
     ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 700.0, 
+    "hp_max": 300.0, 
     "hp_max_grow": 100.0, 
-    "hp_rec": 10, 
+    "hp_rec": 0.0, 
     "hp_rec_grow": 1, 
     "hp_rec_percent": 0, 
     "hp_rec_percent_grow": 0, 
@@ -154,7 +169,7 @@
     "init_stock": 5, 
     "intelligence": 10.0, 
     "intelligence_grow": 1.0, 
-    "is_apply_role_color": false, 
+    "is_apply_role_color": true, 
     "is_mini_map_show": true, 
     "is_open_Xray": false, 
     "is_open_disk_shadow": 0, 
@@ -180,13 +195,13 @@
     "move_type": 40, 
     "mp_color": "Blue", 
     "mp_key": "MP", 
-    "mp_max": 350.0, 
+    "mp_max": 0.0, 
     "mp_max_grow": 50.0, 
-    "mp_rec": 10, 
+    "mp_rec": 0.0, 
     "mp_rec_grow": 2, 
     "name": 1899588670, 
     "need_preview_billboard": true, 
-    "ori_bits": 0, 
+    "ori_bits": 2048, 
     "ori_speed": 7.0, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
@@ -214,7 +229,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 700.0, 
+    "preview_billboard_health_value": 300.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -345,9 +360,9 @@
     "vampire_phy": 0.0, 
     "vampire_phy_grow": 0.0, 
     "view_type": 0, 
-    "vision_night": 8.0, 
+    "vision_night": 20.0, 
     "vision_night_grow": 0, 
-    "vision_rng": 10.0, 
+    "vision_rng": 20.0, 
     "vision_rng_grow": 0, 
     "vision_sector_angle_day": 0, 
     "vision_sector_angle_day_grow": 0, 

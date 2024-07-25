@@ -189,17 +189,29 @@
                             ], 
                             "op_arg": [
                                 {
-                                    "arg_type": 100025, 
+                                    "arg_type": 100027, 
                                     "args_list": [
-                                        3
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "PLAYER_GROUP", 
+                                                "\u7ea2\u65b9"
+                                            ]
+                                        }
                                     ], 
-                                    "sub_type": 1
+                                    "sub_type": 14
                                 }, 
                                 null, 
                                 null, 
                                 null, 
                                 null, 
-                                null, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u5efa\u7b51"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
                                 null, 
                                 null, 
                                 {
@@ -225,7 +237,13 @@
                                     ], 
                                     "sub_type": 1
                                 }, 
-                                null, 
+                                {
+                                    "arg_type": 100251, 
+                                    "args_list": [
+                                        0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
                                 null
                             ], 
                             "op_arg_enable": [
@@ -234,15 +252,15 @@
                                 false, 
                                 false, 
                                 false, 
+                                true, 
+                                false, 
+                                false, 
                                 false, 
                                 false, 
                                 false, 
                                 true, 
-                                false, 
-                                false, 
                                 true, 
                                 true, 
-                                false, 
                                 false
                             ], 
                             "sub_type": "UNIT_LIST_IN_SHAPE"
@@ -771,7 +789,7 @@
                     "event_type": "GAME_ELAPSE_REPEAT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134236693, 
             "is_conf": true, 
             "p_trigger_id": 1569222657, 
             "sub_trigger_owner_set_var_action": {
