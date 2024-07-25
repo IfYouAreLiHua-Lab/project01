@@ -109,6 +109,7 @@
         "items": []
     }, 
     "dynamic_collision_r": 1.0, 
+    "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
@@ -273,7 +274,7 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
-    "reward_exp": 5, 
+    "reward_exp": 1, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
@@ -294,7 +295,7 @@
     "silver coin": 0, 
     "simple_common_atk": {
         "ability_animations": [
-            "attack1"
+            "ability_10001_01"
         ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 

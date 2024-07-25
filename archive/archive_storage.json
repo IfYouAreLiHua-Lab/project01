@@ -1,7 +1,7 @@
 {
     "制作者": {
-        "role_id": 1, 
-        "archive": {}, 
-        "platform_prop": {}
+        "archive": {},
+        "platform_prop": {},
+        "role_id": 1
     }
 }

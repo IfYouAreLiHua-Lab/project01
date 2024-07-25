@@ -1,6 +1,6 @@
 {
     "rule": {
-        "1": "lambda unit: Fix32(100)", 
+        "1": "lambda unit: Fix32(100) ", 
         "2": {
             "enable": "ratio", 
             "number": [
@@ -277,7 +277,22 @@
         "412": true, 
         "413": 100559, 
         "414": 16, 
-        "415": [], 
+        "415": [
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100
+        ], 
         "416": [
             "formula_damage * (1 - (formula_defense * 0.06) / (formula_defense * 0.06 + 1))*(1 + source_unit[\"extra_dmg\"] * 0.01 - target_unit[\"dmg_reduction\"] * 0.01)", 
             "formula_damage * (1 - (formula_defense * 0.06) / (formula_defense * 0.06 + 1))*(1 + source_unit[\"extra_dmg\"] * 0.01 - target_unit[\"dmg_reduction\"] * 0.01)"
@@ -406,6 +421,7 @@
         "10022": 15, 
         "10023": -1, 
         "10024": true, 
+        "100100": false, 
         "101514": 101514, 
         "101515": 101515, 
         "101516": 101516, 
