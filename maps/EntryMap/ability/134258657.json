@@ -1,5 +1,10 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "2097545217": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "2097545217": {
             "action": [
@@ -84,7 +89,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                1000.0
+                                1500.0
                             ], 
                             "sub_type": 1
                         }, 
@@ -145,7 +150,13 @@
                         null, 
                         null, 
                         null, 
-                        null, 
+                        {
+                            "arg_type": 100176, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }, 
                         null, 
                         {
                             "arg_type": 100001, 
@@ -191,7 +202,7 @@
                         false, 
                         false, 
                         false, 
-                        false, 
+                        true, 
                         false, 
                         false, 
                         false, 

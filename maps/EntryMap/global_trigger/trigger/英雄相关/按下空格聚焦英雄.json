@@ -1,0 +1,73 @@
+{
+    "action": [
+        {
+            "action_type": "NEW_CAMERA_LINEAR_MOVE_TIME", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "TRIGGER_PLAYER"
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "UNIT_ENTITY_POINT"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100217, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1837654082000008, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        57
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1837654082000002, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "N1D-D0r7Ee+61n0qT1EAT4", 
+    "p_trigger_id": null, 
+    "trigger_id": 1837654082, 
+    "trigger_name": "按下空格聚焦英雄", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}

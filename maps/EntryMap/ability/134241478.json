@@ -1,5 +1,18 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "408895492": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "574726147": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1527324674": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "408895492": {
             "action": [

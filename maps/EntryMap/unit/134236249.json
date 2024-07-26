@@ -119,7 +119,7 @@
                     "event_type": "RECEIVE_CUSTOM_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134236249, 
             "is_conf": true, 
             "p_trigger_id": 684855303, 
             "sub_trigger_owner_set_var_action": {
@@ -952,7 +952,7 @@
                     "event_type": "RECEIVE_CUSTOM_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134236249, 
             "is_conf": true, 
             "p_trigger_id": 684855303, 
             "sub_trigger_owner_set_var_action": {

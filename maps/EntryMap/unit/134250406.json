@@ -1,5 +1,22 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "282009604": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "431276035": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1654996994": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1990492161": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
     "trigger_dict": {
         "282009604": {
             "action": [
@@ -143,7 +160,7 @@
                     "event_type": "RECEIVE_CUSTOM_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134250406, 
             "is_conf": true, 
             "p_trigger_id": 1990492161, 
             "sub_trigger_owner_set_var_action": {
@@ -324,7 +341,7 @@
                     "event_type": "RECEIVE_CUSTOM_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134250406, 
             "is_conf": true, 
             "p_trigger_id": 1990492161, 
             "sub_trigger_owner_set_var_action": {
