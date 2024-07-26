@@ -300,7 +300,7 @@
         ], 
         "ability_bw_point": 1.6, 
         "ability_cast_point": 0.2, 
-        "attack_interval": 1.0, 
+        "attack_interval": 1.6, 
         "attack_range": 7.2, 
         "attack_trajectory": {
             "destroy_immediately": true, 
@@ -343,7 +343,7 @@
             ]
         }, 
         "damage_type": 0, 
-        "filter_condition_camp": 5, 
+        "filter_condition_camp": 1, 
         "filter_condition_move_channel_type": 99, 
         "filter_condition_type": 7, 
         "filter_item_tags": [], 

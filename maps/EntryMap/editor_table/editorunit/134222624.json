@@ -75,6 +75,10 @@
         [
             134258657, 
             1
+        ], 
+        [
+            134255691, 
+            1
         ]
     ], 
     "common_atk": {
@@ -185,7 +189,7 @@
     "main_attr": "strength", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
-    "mini_map_icon": 903952, 
+    "mini_map_icon": 101422, 
     "mini_map_icon_scale": 1.0, 
     "model": 206612, 
     "model_height": 0.0, 

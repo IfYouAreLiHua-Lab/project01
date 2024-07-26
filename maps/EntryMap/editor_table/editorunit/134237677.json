@@ -344,7 +344,7 @@
             ]
         }, 
         "damage_type": 0, 
-        "filter_condition_camp": 5, 
+        "filter_condition_camp": 1, 
         "filter_condition_move_channel_type": 0, 
         "filter_condition_type": 7, 
         "filter_item_tags": [], 

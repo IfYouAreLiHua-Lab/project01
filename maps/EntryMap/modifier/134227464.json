@@ -9,8 +9,22 @@
         "323362817": {
             "action": [
                 {
-                    "action_type": "RUN_LOOP_TIMER_NO_SAVE", 
+                    "action_type": "RUN_LOOP_TIMER", 
                     "args_list": [
+                        {
+                            "arg_type": 100181, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "NEW_TIMER", 
+                                        "\u5faa\u73af", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
                         {
                             "arg_type": 100000, 
                             "args_list": [
@@ -90,7 +104,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 323362817000004, 
+                                    "element_id": 323362817000035, 
                                     "enable": true, 
                                     "op_arg": [
                                         null, 
@@ -142,6 +156,53 @@
                 {}, 
                 []
             ]
+        }, 
+        "958697474": {
+            "action": [
+                {
+                    "action_type": "DELETE_TIMER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100181, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "NEW_TIMER", 
+                                        "\u5faa\u73af", 
+                                        "actor"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 958697474000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 958697474000002, 
+                    "enable": true, 
+                    "event_type": "LOSS_MODIFIER"
+                }
+            ], 
+            "group_id": 134227464, 
+            "p_trigger_id": null, 
+            "trigger_id": 958697474, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
         }
     }, 
     "trigger_group_info": [
@@ -154,6 +215,13 @@
                         323362817, 
                         "\u65b0\u5efa\u89e6\u53d1\u5668"
                     ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        958697474, 
+                        "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                    ]
                 }
             ], 
             "key": 134227464, 
@@ -161,7 +229,21 @@
         }
     ], 
     "trigger_version": "1.2", 
-    "variable_dict": {}, 
-    "variable_group_info": [], 
-    "variable_length_dict": {}
+    "variable_dict": {
+        "NEW_TIMER": {
+            "\u5faa\u73af": -1
+        }
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5faa\u73af", 
+                "\u5faa\u73af"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "\u5faa\u73af": 0
+    }
 }

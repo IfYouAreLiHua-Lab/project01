@@ -296,8 +296,7 @@
     "silver coin": 0, 
     "simple_common_atk": {
         "ability_animations": [
-            "attack1", 
-            "attack2"
+            "attack1"
         ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
@@ -344,7 +343,7 @@
             ]
         }, 
         "damage_type": 0, 
-        "filter_condition_camp": 5, 
+        "filter_condition_camp": 1, 
         "filter_condition_move_channel_type": 0, 
         "filter_condition_type": 7, 
         "filter_item_tags": [], 

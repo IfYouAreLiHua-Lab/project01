@@ -1,16 +1,16 @@
 {
     "_custom_": true, 
-    "_ref_": 134230644, 
+    "_ref_": 134261873, 
     "attach_model_list": {
         "__tuple__": true, 
         "items": []
     }, 
     "cycle_time": 0, 
-    "description": 1249600965, 
+    "description": 1975641733, 
     "disappear_when_dead": true, 
     "get_effect_list": [
         [
-            101735, 
+            101733, 
             {
                 "__tuple__": true, 
                 "items": [
@@ -55,7 +55,7 @@
     }, 
     "influence_rng": 0, 
     "is_influence_self": true, 
-    "key": 134230644, 
+    "key": 134261873, 
     "kv": {}, 
     "layer_change_of_cover": 1, 
     "layer_max": 1, 
@@ -78,7 +78,7 @@
     "modifier_effect": 2, 
     "modifier_icon": 100008, 
     "modifier_type": 1, 
-    "name": -35800901, 
+    "name": -583535525, 
     "same_origin_cover": true, 
     "shield_change_of_cover": 2, 
     "shield_type": 1, 
@@ -95,5 +95,5 @@
     }, 
     "target_allow": 1, 
     "time_change_of_cover": 1, 
-    "uid": "134230644"
+    "uid": "134261873"
 }
