@@ -105,7 +105,7 @@
     "circle_radius": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.0"
         ]
     }, 
     "cold_down_time": {
@@ -224,7 +224,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 0, 
+    "sight_type": 3, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []

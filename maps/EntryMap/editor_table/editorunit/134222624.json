@@ -329,7 +329,7 @@
         "hit_sound": 201329173, 
         "jump_word": true, 
         "order_play_anim": true, 
-        "order_play_reset_time": 0.5, 
+        "order_play_reset_time": 1.0, 
         "target_attribute": 0, 
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0

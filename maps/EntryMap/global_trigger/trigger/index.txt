@@ -2,6 +2,8 @@
     "New trigger.json": 0, 
     "UI.folder": 1, 
     "军队刷新进程.folder": 2, 
+    "宝箱刷新.folder": 5, 
     "泉水事件.folder": 4, 
-    "英雄相关.folder": 3
+    "英雄相关.folder": 3, 
+    "野怪刷新.folder": 6
 }
