@@ -233,8 +233,8 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
-    "reward_exp": 5, 
-    "reward_official_res_1": 0.0, 
+    "reward_exp": 20, 
+    "reward_official_res_1": 50.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
     "sell_list": {
