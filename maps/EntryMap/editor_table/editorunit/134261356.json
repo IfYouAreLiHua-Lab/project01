@@ -7,7 +7,7 @@
     }, 
     "agility": 0.0, 
     "agility_grow": 0.0, 
-    "alarm_range": 20.0, 
+    "alarm_range": 5.0, 
     "angle_tolerance": 1, 
     "anim_state_name": "", 
     "armor_type": 20000, 
@@ -56,7 +56,7 @@
         "items": []
     }, 
     "can_flee": true, 
-    "cancel_alarm_range": 20.0, 
+    "cancel_alarm_range": 6.0, 
     "cc_jump_height": 0, 
     "cc_move_acc": 0, 
     "cc_move_acc_rate": 0, 

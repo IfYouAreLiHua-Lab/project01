@@ -7,7 +7,7 @@
     }, 
     "agility": 0.0, 
     "agility_grow": 0.0, 
-    "alarm_range": 8.0, 
+    "alarm_range": 5.0, 
     "angle_tolerance": 0, 
     "anim_state_name": "", 
     "armor_type": 20000, 
@@ -41,7 +41,7 @@
     "billboard_scale_y": 1, 
     "blood_bar": 327682, 
     "blood_show_type": 0, 
-    "body_size": 0.8, 
+    "body_size": 3.0, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -56,7 +56,7 @@
         "items": []
     }, 
     "can_flee": true, 
-    "cancel_alarm_range": 10.0, 
+    "cancel_alarm_range": 6.0, 
     "cc_jump_height": 0, 
     "cc_move_acc": 0, 
     "cc_move_acc_rate": 0, 
@@ -109,10 +109,18 @@
         "items": []
     }, 
     "dynamic_collision_r": 1.0, 
-    "enable_strict_facing_mode": 0, 
+    "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
+    "fog_war_put_gray_density": 0.3, 
+    "fog_war_put_gray_fog_strength": 1.0, 
+    "fog_war_unexplored_color": [
+        98, 
+        91, 
+        91
+    ], 
+    "fog_war_unexplored_density": 0.2, 
     "force_show_on_mini_map": false, 
     "fresnel_color": {
         "__tuple__": true, 

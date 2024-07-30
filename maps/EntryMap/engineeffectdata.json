@@ -42,20 +42,16 @@
                 255
             ]
         }, 
-        "fog_war_put_gray_density": 1.0, 
+        "fog_war_put_gray_density": 0.3, 
         "fog_war_put_gray_density_transparency": 0.5, 
         "fog_war_put_gray_fog_strength": 1.0, 
         "fog_war_put_gray_noise_enable": true, 
-        "fog_war_unexplored_color": {
-            "__tuple__": true, 
-            "items": [
-                0, 
-                0, 
-                0, 
-                255
-            ]
-        }, 
-        "fog_war_unexplored_density": 1.0
+        "fog_war_unexplored_color": [
+            98, 
+            91, 
+            91
+        ], 
+        "fog_war_unexplored_density": 0.2
     }, 
     "foliage": {
         "color_overlay": true, 

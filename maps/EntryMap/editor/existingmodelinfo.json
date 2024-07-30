@@ -970,22 +970,6 @@
  {
   "__tuple__": true, 
   "items": [
-   50, 
-   " \u4f20\u5947\u91ce\u602a", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   28, 
-   "\u4f20\u5947\u5b9d\u7bb1", 
-   2
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    2, 
    "\u5927\u578b\u706b\u5c71\u9ed1\u8272\u7194\u5ca9", 
    16777216
@@ -1222,5 +1206,29 @@
   ], 
   "btn_visible": false, 
   "btn_lock": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10, 
+   "\u72c2\u8840\u6218\u58eb", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "\u5efa\u7b51\u77f3\u8d28\u9ec4\u8272\u5e73\u53f0", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   11, 
+   " \u4f20\u5947\u91ce\u602a", 
+   4
+  ]
  }
 ]

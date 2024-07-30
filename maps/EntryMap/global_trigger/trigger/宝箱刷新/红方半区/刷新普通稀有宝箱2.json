@@ -45,13 +45,13 @@
                                                 {
                                                     "arg_type": 100000, 
                                                     "args_list": [
-                                                        4.0
+                                                        2.0
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
                                             "condition_type": "FLOAT_COMPARE", 
-                                            "element_id": 331972678000002, 
+                                            "element_id": 331972678000061, 
                                             "enable": true
                                         }
                                     ], 
@@ -151,7 +151,7 @@
                                                                 }
                                                             ], 
                                                             "bp": false, 
-                                                            "element_id": 331972678000003, 
+                                                            "element_id": 331972678000062, 
                                                             "enable": true
                                                         }, 
                                                         {
@@ -207,7 +207,61 @@
                                                                 }
                                                             ], 
                                                             "bp": false, 
-                                                            "element_id": 331972678000004, 
+                                                            "element_id": 331972678000063, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "SET_VARIABLE", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100030, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "场上的箱子数量"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "INTEGER", 
+                                                                                        "场上的箱子数量"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100016, 
+                                                                            "args_list": [
+                                                                                "+"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                1
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "MATH_OPERATION"
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 331972678000064, 
                                                             "enable": true
                                                         }
                                                     ], 
@@ -287,7 +341,7 @@
                                                                 }
                                                             ], 
                                                             "bp": false, 
-                                                            "element_id": 331972678000005, 
+                                                            "element_id": 331972678000065, 
                                                             "enable": true
                                                         }, 
                                                         {
@@ -343,7 +397,61 @@
                                                                 }
                                                             ], 
                                                             "bp": false, 
-                                                            "element_id": 331972678000006, 
+                                                            "element_id": 331972678000066, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "SET_VARIABLE", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100030, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "场上的箱子数量"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "INTEGER", 
+                                                                                        "场上的箱子数量"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100016, 
+                                                                            "args_list": [
+                                                                                "+"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                1
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "MATH_OPERATION"
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 331972678000067, 
                                                             "enable": true
                                                         }
                                                     ], 
@@ -351,7 +459,7 @@
                                                 }
                                             ], 
                                             "bp": false, 
-                                            "element_id": 331972678000007, 
+                                            "element_id": 331972678000068, 
                                             "enable": true, 
                                             "fake_op": [
                                                 3
@@ -362,7 +470,7 @@
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 331972678000008, 
+                            "element_id": 331972678000069, 
                             "enable": true
                         }, 
                         {
@@ -391,7 +499,7 @@
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 331972678000009, 
+                            "element_id": 331972678000070, 
                             "enable": true
                         }, 
                         2026471495
@@ -459,7 +567,7 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                4.0
+                                                2.0
                                             ], 
                                             "sub_type": 1
                                         }
@@ -623,6 +731,60 @@
                                                     "bp": false, 
                                                     "element_id": 2026471495000004, 
                                                     "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "场上的箱子数量"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "场上的箱子数量"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100016, 
+                                                                    "args_list": [
+                                                                        "+"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "MATH_OPERATION"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 2026471495000014, 
+                                                    "enable": true
                                                 }
                                             ], 
                                             "sub_type": 1
@@ -759,6 +921,60 @@
                                                     "bp": false, 
                                                     "element_id": 2026471495000006, 
                                                     "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "场上的箱子数量"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "场上的箱子数量"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100016, 
+                                                                    "args_list": [
+                                                                        "+"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "MATH_OPERATION"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 2026471495000027, 
+                                                    "enable": true
                                                 }
                                             ], 
                                             "sub_type": 1
@@ -810,7 +1026,42 @@
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "场上的箱子数量"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100015, 
+                            "args_list": [
+                                "<"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                60
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "FLOAT_COMPARE", 
+                    "element_id": 381927493000255, 
+                    "enable": true
+                }
+            ], 
             "enabled": false, 
             "event": [
                 {

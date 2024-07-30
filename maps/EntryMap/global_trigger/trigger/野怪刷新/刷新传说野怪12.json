@@ -6,7 +6,7 @@
                 {
                     "arg_type": 100000, 
                     "args_list": [
-                        270.0
+                        600.0
                     ], 
                     "sub_type": 1
                 }, 
@@ -21,7 +21,7 @@
                                     "args_list": [
                                         [
                                             "UNIT_ENTITY", 
-                                            "传说宝箱", 
+                                            "怪物", 
                                             "local"
                                         ]
                                     ], 
@@ -33,14 +33,14 @@
                                         {
                                             "arg_type": 100116, 
                                             "args_list": [
-                                                134255266
+                                                134276066
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
                                             "arg_type": 100004, 
                                             "args_list": [
-                                                10019
+                                                10043
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -50,7 +50,7 @@
                                                 {
                                                     "arg_type": 100000, 
                                                     "args_list": [
-                                                        180.0
+                                                        60.0
                                                     ], 
                                                     "sub_type": 1
                                                 }
@@ -75,16 +75,16 @@
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 2013151322000042, 
+                            "element_id": 1596481650000010, 
                             "enable": true
                         }, 
-                        1241399387
+                        1076387955
                     ], 
                     "sub_type": 1
                 }
             ], 
             "bp": false, 
-            "element_id": 2013151322000010, 
+            "element_id": 1596481650000003, 
             "enable": true, 
             "local_var": {
                 "__tuple__": true, 
@@ -101,15 +101,15 @@
     "event": [
         {
             "args_list": [], 
-            "element_id": 2013151322000001, 
+            "element_id": 1596481650000001, 
             "enable": true, 
             "event_type": "INIT_FINISHED"
         }
     ], 
-    "group_id": "cc4It02PEe+98GmUuzqNr4", 
+    "group_id": "UiRES04nEe+XdJPEwIF-ks", 
     "p_trigger_id": null, 
     "sub_trigger": {
-        "1241399387": {
+        "1076387955": {
             "action": [
                 {
                     "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
@@ -132,7 +132,7 @@
                                             "args_list": [
                                                 [
                                                     "UNIT_ENTITY", 
-                                                    "传说宝箱", 
+                                                    "怪物", 
                                                     "local"
                                                 ]
                                             ], 
@@ -144,14 +144,14 @@
                                                 {
                                                     "arg_type": 100116, 
                                                     "args_list": [
-                                                        134255266
+                                                        134276066
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100004, 
                                                     "args_list": [
-                                                        10019
+                                                        10043
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -161,7 +161,7 @@
                                                         {
                                                             "arg_type": 100000, 
                                                             "args_list": [
-                                                                180.0
+                                                                60.0
                                                             ], 
                                                             "sub_type": 1
                                                         }
@@ -186,7 +186,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1241399387000059, 
+                                    "element_id": 1076387955000020, 
                                     "enable": true
                                 }
                             ], 
@@ -194,7 +194,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1241399387000055, 
+                    "element_id": 1076387955000016, 
                     "enable": true, 
                     "local_var": {
                         "__tuple__": true, 
@@ -218,7 +218,7 @@
                                     "__tuple__": true, 
                                     "items": [
                                         "UNIT_ENTITY", 
-                                        "传说宝箱", 
+                                        "怪物", 
                                         "local"
                                     ]
                                 }
@@ -233,14 +233,14 @@
                             "sub_type": 1
                         }
                     ], 
-                    "element_id": 1241399387000048, 
+                    "element_id": 1076387955000013, 
                     "enable": true, 
                     "event_type": "SPECIAL_UNIT_EVENT"
                 }
             ], 
             "group_id": 0, 
             "is_conf": true, 
-            "p_trigger_id": 2013151322, 
+            "p_trigger_id": 1596481650, 
             "sub_trigger_owner_set_var_action": {
                 "action_type": "SET_VARIABLE", 
                 "args_list": [
@@ -251,7 +251,7 @@
                                 "__tuple__": true, 
                                 "items": [
                                     "DYNAMIC_TRIGGER_INSTANCE", 
-                                    "刷新箱子触发器12"
+                                    "刷新野怪触发器12"
                                 ]
                             }
                         ], 
@@ -263,7 +263,7 @@
                             {
                                 "arg_type": 100019, 
                                 "args_list": [
-                                    1241399387
+                                    1076387955
                                 ], 
                                 "sub_type": 1
                             }
@@ -275,8 +275,8 @@
                 "element_id": 74969156000231, 
                 "enable": true
             }, 
-            "trigger_id": 1241399387, 
-            "trigger_name": "子触发器_13", 
+            "trigger_id": 1076387955, 
+            "trigger_name": "子触发器_25", 
             "valid": true, 
             "var_data": [
                 {}, 
@@ -285,8 +285,8 @@
             ]
         }
     }, 
-    "trigger_id": 2013151322, 
-    "trigger_name": "刷新传说宝箱", 
+    "trigger_id": 1596481650, 
+    "trigger_name": "刷新传说野怪12", 
     "valid": true, 
     "var_data": [
         {
@@ -294,19 +294,19 @@
                 "计数器": 0
             }, 
             "UNIT_ENTITY": {
-                "传说宝箱": 0, 
-                "创建的宝箱": 0
+                "创建的宝箱": 0, 
+                "怪物": 0
             }
         }, 
         {
-            "传说宝箱": 0, 
             "创建的宝箱": 0, 
+            "怪物": 0, 
             "计数器": 0
         }, 
         [
             "计数器", 
             "创建的宝箱", 
-            "传说宝箱"
+            "怪物"
         ]
     ]
 }

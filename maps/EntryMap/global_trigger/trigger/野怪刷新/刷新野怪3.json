@@ -6,7 +6,7 @@
                 {
                     "arg_type": 100000, 
                     "args_list": [
-                        1.0
+                        20.0
                     ], 
                     "sub_type": 1
                 }, 
@@ -75,7 +75,7 @@
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 672268384000002, 
+                            "element_id": 672268384000006, 
                             "enable": true
                         }, 
                         907149409
@@ -205,13 +205,10 @@
                     {
                         "arg_type": 100178, 
                         "args_list": [
-                            {
-                                "__tuple__": true, 
-                                "items": [
-                                    "DYNAMIC_TRIGGER_INSTANCE", 
-                                    "刷新野怪触发器3"
-                                ]
-                            }
+                            [
+                                "DYNAMIC_TRIGGER_INSTANCE", 
+                                "刷新野怪触发器3"
+                            ]
                         ], 
                         "sub_type": "VARIABLE"
                     }, 

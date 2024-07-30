@@ -41,7 +41,7 @@
     "billboard_scale_y": 2.0, 
     "blood_bar": 393223, 
     "blood_show_type": 0, 
-    "body_size": 0.8, 
+    "body_size": 3.0, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -69,7 +69,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "collision_radius_2": 0.7, 
+    "collision_radius_2": 1.0, 
     "common_ability_list": {
         "__tuple__": true, 
         "items": []
@@ -109,7 +109,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "dynamic_collision_r": 1.0, 
+    "dynamic_collision_r": 2.0, 
     "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
