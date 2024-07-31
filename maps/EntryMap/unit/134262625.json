@@ -102,7 +102,7 @@
                     "event_type": "UNIT_DIE"
                 }
             ], 
-            "group_id": 134236693, 
+            "group_id": 134262625, 
             "p_trigger_id": null, 
             "trigger_id": 797609988, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_3", 
@@ -233,7 +233,7 @@
                                 {
                                     "arg_type": 100002, 
                                     "args_list": [
-                                        2
+                                        3
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -789,7 +789,7 @@
                     "event_type": "GAME_ELAPSE_REPEAT"
                 }
             ], 
-            "group_id": 134236693, 
+            "group_id": 134262625, 
             "is_conf": true, 
             "p_trigger_id": 1569222657, 
             "sub_trigger_owner_set_var_action": {
@@ -851,7 +851,7 @@
                     "event_type": "UNIT_BORN"
                 }
             ], 
-            "group_id": 134236693, 
+            "group_id": 134262625, 
             "p_trigger_id": null, 
             "trigger_id": 1569222657, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
@@ -902,7 +902,7 @@
                     "event_type": "UNIT_BORN"
                 }
             ], 
-            "group_id": 134236693, 
+            "group_id": 134262625, 
             "p_trigger_id": null, 
             "trigger_id": 1854537731, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
@@ -947,8 +947,8 @@
                     ]
                 }
             ], 
-            "key": 134236693, 
-            "name": "134236693"
+            "key": 134262625, 
+            "name": "134262625"
         }
     ], 
     "trigger_version": "1.2", 

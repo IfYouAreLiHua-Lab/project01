@@ -102,6 +102,7 @@
         "items": []
     }, 
     "dynamic_collision_r": 0.0, 
+    "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
@@ -289,7 +290,6 @@
     "speed_ratio_in_turn": 1.0, 
     "standard_walk_rate": 36.0, 
     "start_rft": 1.0, 
-    "state_init": "", 
     "state_list": [], 
     "strength": 0.0, 
     "strength_grow": 0.0, 

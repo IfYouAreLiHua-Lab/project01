@@ -104,7 +104,7 @@
         "fix_sun_shadow_range": 45
     }, 
     "sky_light": {
-        "sky_light_const_tod_time": 8.0, 
+        "sky_light_const_tod_time": 10.0, 
         "sky_light_enable_time_of_day": false
     }, 
     "surface_highlight": {
