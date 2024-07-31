@@ -78,6 +78,42 @@
                             "element_id": 1408581736000010, 
                             "enable": true
                         }, 
+                        {
+                            "action_type": "SEND_SIGNAL", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        33
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100275, 
+                                    "args_list": [
+                                        2
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        10039
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100286, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 349032541000044, 
+                            "enable": true
+                        }, 
                         854933609
                     ], 
                     "sub_type": 1
@@ -174,6 +210,42 @@
                     ], 
                     "bp": false, 
                     "element_id": 854933609000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SEND_SIGNAL", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                33
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100275, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                10039
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100286, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 349032541000044, 
                     "enable": true
                 }
             ], 

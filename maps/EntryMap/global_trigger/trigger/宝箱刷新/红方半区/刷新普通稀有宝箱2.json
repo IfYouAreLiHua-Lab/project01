@@ -84,6 +84,41 @@
                                                             "action_type": "SET_VARIABLE", 
                                                             "args_list": [
                                                                 {
+                                                                    "arg_type": 100030, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "POINT", 
+                                                                                "选取的点", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100004, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100150, 
+                                                                            "args_list": [
+                                                                                10014
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 74969156000293, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "SET_VARIABLE", 
+                                                            "args_list": [
+                                                                {
                                                                     "arg_type": 100006, 
                                                                     "args_list": [
                                                                         {
@@ -111,14 +146,15 @@
                                                                             "arg_type": 100004, 
                                                                             "args_list": [
                                                                                 {
-                                                                                    "arg_type": 100150, 
-                                                                                    "args_list": [
-                                                                                        10014
-                                                                                    ], 
-                                                                                    "sub_type": 1
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "POINT", 
+                                                                                        "选取的点", 
+                                                                                        "local"
+                                                                                    ]
                                                                                 }
                                                                             ], 
-                                                                            "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                                            "sub_type": 19
                                                                         }, 
                                                                         {
                                                                             "arg_type": 100225, 
@@ -152,6 +188,49 @@
                                                             ], 
                                                             "bp": false, 
                                                             "element_id": 331972678000062, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "SEND_SIGNAL", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [
+                                                                        33
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100275, 
+                                                                    "args_list": [
+                                                                        3
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100004, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "POINT", 
+                                                                                "选取的点", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 19
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100286, 
+                                                                    "args_list": [
+                                                                        1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 74969156000301, 
                                                             "enable": true
                                                         }, 
                                                         {
@@ -274,6 +353,41 @@
                                                             "action_type": "SET_VARIABLE", 
                                                             "args_list": [
                                                                 {
+                                                                    "arg_type": 100030, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "POINT", 
+                                                                                "选取的点", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100004, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100150, 
+                                                                            "args_list": [
+                                                                                10014
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 331972678000091, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "SET_VARIABLE", 
+                                                            "args_list": [
+                                                                {
                                                                     "arg_type": 100006, 
                                                                     "args_list": [
                                                                         {
@@ -301,14 +415,15 @@
                                                                             "arg_type": 100004, 
                                                                             "args_list": [
                                                                                 {
-                                                                                    "arg_type": 100150, 
-                                                                                    "args_list": [
-                                                                                        10014
-                                                                                    ], 
-                                                                                    "sub_type": 1
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "POINT", 
+                                                                                        "选取的点", 
+                                                                                        "local"
+                                                                                    ]
                                                                                 }
                                                                             ], 
-                                                                            "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                                            "sub_type": 19
                                                                         }, 
                                                                         {
                                                                             "arg_type": 100225, 
@@ -341,7 +456,50 @@
                                                                 }
                                                             ], 
                                                             "bp": false, 
-                                                            "element_id": 331972678000065, 
+                                                            "element_id": 331972678000100, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "SEND_SIGNAL", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [
+                                                                        33
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100275, 
+                                                                    "args_list": [
+                                                                        3
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100004, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "POINT", 
+                                                                                "选取的点", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 19
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100286, 
+                                                                    "args_list": [
+                                                                        1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 331972678000117, 
                                                             "enable": true
                                                         }, 
                                                         {
@@ -606,6 +764,41 @@
                                                     "action_type": "SET_VARIABLE", 
                                                     "args_list": [
                                                         {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "POINT", 
+                                                                        "选取的点", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100150, 
+                                                                    "args_list": [
+                                                                        10014
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 74969156000293, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
                                                             "arg_type": 100006, 
                                                             "args_list": [
                                                                 {
@@ -633,14 +826,15 @@
                                                                     "arg_type": 100004, 
                                                                     "args_list": [
                                                                         {
-                                                                            "arg_type": 100150, 
-                                                                            "args_list": [
-                                                                                10014
-                                                                            ], 
-                                                                            "sub_type": 1
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "POINT", 
+                                                                                "选取的点", 
+                                                                                "local"
+                                                                            ]
                                                                         }
                                                                     ], 
-                                                                    "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                                    "sub_type": 19
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100225, 
@@ -673,7 +867,50 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 2026471495000003, 
+                                                    "element_id": 331972678000062, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SEND_SIGNAL", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                33
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100275, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "POINT", 
+                                                                        "选取的点", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 19
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100286, 
+                                                            "args_list": [
+                                                                1
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 74969156000301, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -796,6 +1033,41 @@
                                                     "action_type": "SET_VARIABLE", 
                                                     "args_list": [
                                                         {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "POINT", 
+                                                                        "选取的点", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100150, 
+                                                                    "args_list": [
+                                                                        10014
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 2026471495000289, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
                                                             "arg_type": 100006, 
                                                             "args_list": [
                                                                 {
@@ -823,14 +1095,15 @@
                                                                     "arg_type": 100004, 
                                                                     "args_list": [
                                                                         {
-                                                                            "arg_type": 100150, 
-                                                                            "args_list": [
-                                                                                10014
-                                                                            ], 
-                                                                            "sub_type": 1
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "POINT", 
+                                                                                "选取的点", 
+                                                                                "local"
+                                                                            ]
                                                                         }
                                                                     ], 
-                                                                    "sub_type": "POLY_AREA_RANDOM_POINT"
+                                                                    "sub_type": 19
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100225, 
@@ -863,7 +1136,50 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 2026471495000005, 
+                                                    "element_id": 2026471495000298, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SEND_SIGNAL", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                33
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100275, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "POINT", 
+                                                                        "选取的点", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 19
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100286, 
+                                                            "args_list": [
+                                                                1
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 2026471495000315, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -1134,6 +1450,16 @@
             "INTEGER": {
                 "计数器": 0
             }, 
+            "POINT": {
+                "选取的点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }, 
             "UNIT_ENTITY": {
                 "创建的宝箱": 0, 
                 "普通宝箱": 0, 
@@ -1144,13 +1470,15 @@
             "创建的宝箱": 0, 
             "普通宝箱": 0, 
             "稀有宝箱": 0, 
-            "计数器": 0
+            "计数器": 0, 
+            "选取的点": 0
         }, 
         [
             "计数器", 
             "创建的宝箱", 
             "普通宝箱", 
-            "稀有宝箱"
+            "稀有宝箱", 
+            "选取的点"
         ]
     ]
 }
