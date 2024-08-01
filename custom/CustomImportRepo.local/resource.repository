@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository>
 <Items>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>66082da4-fbdc-4ef8-a3d7-75d2d53bdacb</GUID><Package>ui</Package><Class>Texture2D</Class><Name>font_normal_1403912843</Name><Annotation><SourcePath>G:/kk_.9536023/temp.png</SourcePath><CreationTime>1722484347</CreationTime><MD5>b92fca2d6d674e47f3b607b6aed93295</MD5></Annotation></Item>
 <Item><Type>Texture</Type><Flags>256</Flags><GUID>75313e1e-944f-4abd-99bf-f376e3a213c2</GUID><Package>ui</Package><Class>Texture2D</Class><Name>ss_independ_billboard_batch_ui_EntryMap0</Name><Annotation><SourcePath>G:/kk_34681.88/temp.png</SourcePath><CreationTime>1721634681</CreationTime><MD5>1e75847e813279149597a0e61f2697ca</MD5></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>973a8ccf-7ba0-48a9-8346-b68c80986a4b</GUID><Package>ui</Package><Class>Texture2D</Class><Name>font_crit_1403912843</Name><Annotation><SourcePath>G:/kk_3.699319/temp.png</SourcePath><CreationTime>1722484313</CreationTime><MD5>2c560b9ee06d16ae0f0318feefd903f4</MD5></Annotation></Item>
 </Items>
 </Repository>
