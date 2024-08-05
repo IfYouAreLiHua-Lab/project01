@@ -31,10 +31,13 @@
             }, 
             "prefab_sub_key": null, 
             "scene_ui_name": null, 
-            "size": [
-                1920.0, 
-                1080.0
-            ], 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    1080.0
+                ]
+            }, 
             "type": 4, 
             "uid": "e080b5db-a796-4669-8146-a20b99e99120"
         }, 
