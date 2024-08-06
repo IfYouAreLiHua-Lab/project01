@@ -67,12 +67,27 @@
                 "official_res_1", 
                 {
                     "default": 0.0, 
-                    "icon_id": 100000, 
+                    "icon_id": 133085, 
                     "is_coin": true, 
                     "key": "official_res_1", 
                     "lower_bound": 0.0, 
                     "name": "gold", 
                     "upper_bound": 1073774591.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "9jopjVOeEe+ZWVcoLHy5-j", 
+                {
+                    "default": 0.0, 
+                    "icon_id": 109239, 
+                    "is_coin": true, 
+                    "key": "9jopjVOeEe+ZWVcoLHy5-j", 
+                    "lower_bound": 0.0, 
+                    "name": "gear", 
+                    "upper_bound": 70000000000000
                 }
             ]
         }

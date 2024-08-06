@@ -24,7 +24,7 @@
     "attack_type": 10000, 
     "bar_show_name": 2, 
     "bar_show_scale": true, 
-    "bar_slot_size": 6, 
+    "bar_slot_size": 10, 
     "base_color_mod": 1, 
     "base_tint_color": [
         217, 
@@ -228,7 +228,7 @@
         "joints": {}, 
         "shapes": {}
     }, 
-    "pkg_slot_size": 60, 
+    "pkg_slot_size": 0, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
@@ -246,6 +246,7 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
+    "reward_9jopjVOeEe+ZWVcoLHy5-j": 0.0, 
     "reward_exp": 100, 
     "reward_official_res_1": 500.0, 
     "role_color_scale": 1.0, 
