@@ -1,0 +1,254 @@
+{
+    "data": {
+        "adapter_option": [
+            false, 
+            false, 
+            false, 
+            false, 
+            0, 
+            0, 
+            0, 
+            0
+        ], 
+        "anchor": {
+            "__tuple__": true, 
+            "items": [
+                0.5, 
+                0.5
+            ]
+        }, 
+        "can_drag": false, 
+        "children": [
+            {
+                "adapter_option": [
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                "anchor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.5, 
+                        0.5
+                    ]
+                }, 
+                "can_drag": false, 
+                "cap_insets": {
+                    "__tuple__": true, 
+                    "items": [
+                        166.0, 
+                        237.0, 
+                        166.0, 
+                        237.0
+                    ]
+                }, 
+                "children": [
+                    {
+                        "adapter_option": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            39.537900000000036, 
+                            416.46209999999996, 
+                            134.43310000000002, 
+                            107.56689999999998
+                        ], 
+                        "anchor": {
+                            "__tuple__": true, 
+                            "items": [
+                                0.5, 
+                                0.5
+                            ]
+                        }, 
+                        "angle": [
+                            0.0, 
+                            0.0, 
+                            307.0
+                        ], 
+                        "background_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                255, 
+                                255, 
+                                255, 
+                                0
+                            ]
+                        }, 
+                        "camera_mode": 0, 
+                        "camera_pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                -5.19, 
+                                4.19, 
+                                5.21
+                            ]
+                        }, 
+                        "camera_viewport": 15.0, 
+                        "can_drag": false, 
+                        "children": [], 
+                        "comp_type": "Model", 
+                        "event_list": [], 
+                        "focus_pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                -4.5654, 
+                                3.8013, 
+                                4.5936
+                            ]
+                        }, 
+                        "hover_child": "", 
+                        "idle_anim": "idle1", 
+                        "model": {
+                            "__tuple__": true, 
+                            "items": [
+                                "editor_model", 
+                                206612
+                            ]
+                        }, 
+                        "name": "model_1", 
+                        "opacity": 1.0, 
+                        "open_adapter": true, 
+                        "pos_data": {
+                            "__tuple__": true, 
+                            "items": [
+                                262.4331, 
+                                544.4621, 
+                                52.6974, 
+                                76.4694, 
+                                1, 
+                                0
+                            ]
+                        }, 
+                        "prefab_sub_key": "ae17a25e-07c3-44a1-8725-b27108e2a5c1", 
+                        "rotation": 0, 
+                        "scale": {
+                            "__tuple__": true, 
+                            "items": [
+                                1, 
+                                1
+                            ]
+                        }, 
+                        "scene_ui_name": null, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                256, 
+                                256
+                            ]
+                        }, 
+                        "swallow_touches": false, 
+                        "type": 6, 
+                        "visible": true
+                    }
+                ], 
+                "color": {
+                    "__tuple__": true, 
+                    "items": [
+                        255, 
+                        255, 
+                        255, 
+                        255
+                    ]
+                }, 
+                "comp_type": "Image", 
+                "event_list": [], 
+                "hover_child": "", 
+                "image": 132965, 
+                "is_scale9_enable": false, 
+                "name": "choose1", 
+                "opacity": 1.0, 
+                "open_adapter": false, 
+                "pos_data": {
+                    "__tuple__": true, 
+                    "items": [
+                        50.0, 
+                        50.0, 
+                        50.0, 
+                        50.0, 
+                        1, 
+                        0
+                    ]
+                }, 
+                "prefab_sub_key": "2db9f4bb-01b1-4774-93e9-3d770e712813", 
+                "rotation": 0, 
+                "scale": {
+                    "__tuple__": true, 
+                    "items": [
+                        1, 
+                        1
+                    ]
+                }, 
+                "scene_ui_name": null, 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        498.0, 
+                        712.0
+                    ]
+                }, 
+                "swallow_touches": false, 
+                "type": 4, 
+                "visible": true
+            }
+        ], 
+        "clip_enabled": false, 
+        "clipping_type": 1, 
+        "color": {
+            "__tuple__": true, 
+            "items": [
+                255, 
+                255, 
+                255, 
+                0
+            ]
+        }, 
+        "comp_type": "Layout", 
+        "custom_kv": {}, 
+        "event_list": [], 
+        "hover_child": "", 
+        "mask_image": 100445, 
+        "name": "heroShowOff", 
+        "opacity": 1.0, 
+        "open_adapter": false, 
+        "pos_data": {
+            "__tuple__": true, 
+            "items": [
+                960.0, 
+                540.0, 
+                50.0, 
+                50.0, 
+                1, 
+                1
+            ]
+        }, 
+        "prefab_key": "05d6710d-72ff-4970-a9f5-1d77ec08eae1", 
+        "prefab_sub_key": null, 
+        "rotation": 0, 
+        "scale": {
+            "__tuple__": true, 
+            "items": [
+                1, 
+                1
+            ]
+        }, 
+        "scene_ui_name": null, 
+        "size": {
+            "__tuple__": true, 
+            "items": [
+                100, 
+                100
+            ]
+        }, 
+        "swallow_touches": false, 
+        "type": 7, 
+        "visible": true
+    }, 
+    "key": "05d6710d-72ff-4970-a9f5-1d77ec08eae1", 
+    "name": "heroShowOff"
+}

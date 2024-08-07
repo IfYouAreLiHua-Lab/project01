@@ -1,6 +1,8 @@
 {
     "variable_dict": {
         "DYNAMIC_TRIGGER_INSTANCE": {
+            "game_mode_choose_1": 0, 
+            "game_mode_choose_2": 0, 
             "\u5237\u65b0\u7bb1\u5b50\u89e6\u53d1\u56681": 0, 
             "\u5237\u65b0\u7bb1\u5b50\u89e6\u53d1\u566810": 0, 
             "\u5237\u65b0\u7bb1\u5b50\u89e6\u53d1\u566811": 0, 
@@ -30,6 +32,7 @@
         }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
+            "game_mode": 0, 
             "\u573a\u4e0a\u7684\u7bb1\u5b50\u6570\u91cf": 0
         }, 
         "MODIFIER_ENTITY": {
@@ -332,11 +335,35 @@
                 "\u573a\u4e0a\u7684\u7bb1\u5b50\u6570\u91cf", 
                 "\u573a\u4e0a\u7684\u7bb1\u5b50\u6570\u91cf"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "game_mode", 
+                "game_mode"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "game_mode_choose_1", 
+                "game_mode_choose_1"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "game_mode_choose_2", 
+                "game_mode_choose_2"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GLOBAL_BAG_MAX_NUM": 0, 
         "UI_Manager": 0, 
+        "game_mode": 0, 
+        "game_mode_choose_1": 0, 
+        "game_mode_choose_2": 0, 
         "\u5237\u65b0\u7bb1\u5b50\u89e6\u53d1\u56681": 0, 
         "\u5237\u65b0\u7bb1\u5b50\u89e6\u53d1\u566810": 0, 
         "\u5237\u65b0\u7bb1\u5b50\u89e6\u53d1\u566811": 0, 

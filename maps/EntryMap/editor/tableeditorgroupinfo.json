@@ -26,5 +26,19 @@
    "47d8428a-75d0-4829-a10c-fdfe242a1544", 
    "\u7ea2\u65b9\u519b\u961f\u73a9\u5bb6\u4e8c"
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "cb862c7f-2185-4f13-8771-4dfe64f214fa", 
+   "playerHero"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "7222635b-f649-407c-a6dc-6affbee2b26c", 
+   "heroes"
+  ]
  }
 ]
